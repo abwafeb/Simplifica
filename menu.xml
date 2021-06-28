@@ -1,0 +1,41 @@
+<menu>
+    <menuitem label='Inicio'>
+        <icon>fa:home fa-fw blue</icon>
+        <menu>
+            <menuitem label='PLATAFORMA'>
+                <icon>fa:copy fa-hand-scissors green</icon>
+                <menu>
+                    <menuitem label='Usuarios'>
+                        <icon>fa:users fa-fw green</icon>
+                        <action>UsersList</action>
+                    </menuitem>
+                    <menuitem label='Processos'>
+                        <icon>fa:copy fa-fw blue</icon>
+                        <action>JprocessosList</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            <menuitem label='SCITA'>
+                <icon>fa:copy fa-hand-scissors red</icon>
+                <menu>
+                    <menuitem label='Situações SCITA'>
+                        <icon>fa:copy fa-tasks blue</icon>
+                        <action>SituacoesList</action>
+                    </menuitem>
+                    <menuitem label='Processos SCITA'>
+                        <icon>fa:copy fa-fw brown</icon>
+                        <action>ProcessosList</action>
+                    </menuitem>
+                    <menuitem label='Sessões/Pautas SCITA'>
+                        <icon>fa:gavel fa-fw brown</icon>
+                        <action>SessoesList</action>
+                    </menuitem>
+                    <menuitem label='Demonstrativos SCITA'>
+                        <icon>fa:th-list fa-fw brown</icon>
+                        <action>DemonstrativosList</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+        </menu>
+    </menuitem> 
+</menu>

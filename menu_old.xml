@@ -1,0 +1,19 @@
+<menu>
+    <menuitem label='Inicio'>
+        <icon>fa:home fa-fw blue</icon>
+        <menu>
+            <menuitem label='Usuarios'>
+                <icon>fa:users fa-fw green</icon>
+                <action>UsersList</action>
+            </menuitem>
+            <menuitem label='Processos'>
+                <icon>fa:copy fa-fw blue</icon>
+                <action>JprocessosList</action>
+            </menuitem>
+            <menuitem label='Situações SCITA'>
+                <icon>fa:copy fa-tasks blue</icon>
+                <action>SituacoesList</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+</menu>
